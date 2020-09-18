@@ -20,7 +20,7 @@ Paste into terminal and execute
 
 ES6
 ```js
-import importAll from 'import-all'
+import importAll from '@bitler/import-all'
 
 const modules = importAll({ path: '../directory', __dirname }).then(doSomethingCallback);
 ```
@@ -83,7 +83,7 @@ importAll({
 
 TS: Handling, using for .. of
 ```ts
-import importAll from 'import-all'
+import importAll from '@bitler/import-all'
 
 ((async function (path: string) {
  const modules = await importAll({ path, __dirname, tree: false });
@@ -95,7 +95,7 @@ import importAll from 'import-all'
 
 TS: Create instance of class in every imported module
 ```ts
-import importAll from 'import-all'
+import importAll from '@bitler/import-all'
 
 ((async function (path: string) {
  await importAll({
