@@ -4,7 +4,7 @@ Package for loading multiple modules by one function. Supports recursive imports
 
 An extened version of package [require-all](https://www.npmjs.com/package/require-all) for ES6+
 
-[![NPM](https://nodei.co/npm/@bitler/import-all.svg?downloads=true)](https://npmjs.org/package/@bitler/import-all)
+[![NPM](https://nodei.co/npm/@bitler/import-all.svg?downloads=true)](https://npmjs.com/package/@bitler/import-all)
 
 <!-- [![Build status](https://nodei.co/npm/@bitler/import-all.svg?downloads=true)][ci-url] -->
 [![NPM downloads](https://img.shields.io/npm/dm/@bitler/import-all.svg)](https://npmjs.org/package/@bitler/import-all)
